@@ -23,12 +23,12 @@ function App() {
           onMovieClick={setSelectedMovie}
         />
         <Row title="Trending Now" fetchUrl={requests.trending} onMovieClick={setSelectedMovie} />
-        <Row title="Top Rated" fetchUrl={requests.topRated} onMovieClick={setSelectedMovie} />
+        <Row title="Top 10 Movies in India Today" fetchUrl={requests.topRated} onMovieClick={setSelectedMovie} isTopTen />
         <Row title="Action Movies" fetchUrl={requests.action} onMovieClick={setSelectedMovie} />
         <Row title="Comedy Movies" fetchUrl={requests.comedy} onMovieClick={setSelectedMovie} />
         <Row title="Horror Movies" fetchUrl={requests.horror} onMovieClick={setSelectedMovie} />
         <Row title="Romance Movies" fetchUrl={requests.romance} onMovieClick={setSelectedMovie} />
-        <Row title="Sci-Fi Movies" fetchUrl={requests.sciFi} onMovieClick={setSelectedMovie} />
+        <Row title="Sci-Fi Adventures" fetchUrl={requests.sciFi} onMovieClick={setSelectedMovie} />
         <Row title="Documentaries" fetchUrl={requests.documentaries} onMovieClick={setSelectedMovie} />
       </div>
 
