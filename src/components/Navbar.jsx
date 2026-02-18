@@ -21,12 +21,11 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? "navbar--scrolled" : ""}`}>
       <div className="navbar__left">
         <div className="navbar__logo">
-          <svg viewBox="0 0 111 30" className="navbar__logo-svg">
-            <path
-              fill="#E50914"
-              d="M105.062 14.28L111 30c-1.75-.25-3.499-.563-5.28-.845l-3.345-8.686-3.437 7.969c-1.687-.282-3.344-.376-5.031-.595l6.093-13.406L94.47 0h5.063l3.062 7.874L105.75 0h5.063l-5.75 14.28zM90.47 0l-4.5 14.093L81.657 0H76V30h4.5V9.47L85.22 24h.28l4.532-14.438V30h4.5V0h-4.063zM65.53 0v30h14.563v-4.5h-9.97v-8.157h8.907v-4.5h-8.907V4.5h9.97V0H65.53zm-8.907 0v4.5h6.75V30h4.5V4.5h6.75V0H56.625zM48 0v30h4.5V17.625h8.907v-4.5H52.5V4.5h9.97V0H48zm-16.875 0v30H36V17.343h7.875v-4.5H36V4.5h9.97V0h-14.845zM4.5 0v30H9V4.5h.062L18.75 30h4.5V0H18.75v25.312L9 0H4.5z"
-            />
-          </svg>
+          <img
+            className="navbar__logo-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+            alt="Netflix"
+          />
         </div>
 
         <ul className="navbar__links">

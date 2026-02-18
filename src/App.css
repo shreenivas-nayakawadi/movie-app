@@ -49,9 +49,9 @@
   margin-right: 4px;
 }
 
-.navbar__logo-svg {
+.navbar__logo-img {
   width: 92px;
-  height: 25px;
+  height: auto;
   display: block;
 }
 
@@ -1326,7 +1326,7 @@
     padding: 0 16px;
   }
 
-  .navbar__logo-svg {
+  .navbar__logo-img {
     width: 72px;
   }
 
